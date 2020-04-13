@@ -1,0 +1,245 @@
+$font-family: 'Bitter', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  /*scroll-behavior: smooth;*/
+  font-family: $font-family;
+}
+
+input {
+  font-family: $font-family;
+}
+
+body {
+  margin: auto;
+  word-spacing: 2px;
+  overflow-x: hidden;
+  color: $color-primary;
+  line-height: $line-height;
+}
+
+body, html {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: $weight-medium;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.center {
+  text-align: center;
+}
+
+em {
+  background-color: $color-emphasis;
+}
+
+strong {
+  font-weight: $weight-medium;
+  border-bottom: 1.5px solid $color-subtitle;
+}
+
+a {
+  text-decoration: none;
+
+  &:visited {
+    text-decoration: none;
+  }
+
+  &:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    color: $color-hover;
+  }
+}
+
+#top {
+  bottom: 20px;
+  right: 60px;
+  z-index: 99;
+  display: none;
+  position: fixed;
+  font-size: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: $color-blue;
+  background-color: $color-page;
+
+  a,
+  a:hover,
+  a:visited {
+    color: $color-blue;
+  }
+
+  @media (max-width: $small-breakpoint) {
+    bottom: 5px;
+    right: 15px;
+  }
+
+}
+
+/*
+  Container for all top body content except footer.
+  Footer is maintained on the bottom based on this
+  container.
+ */
+.container {
+  min-height: 100%;
+  margin-bottom: -$footer-height;
+}
+
+/*
+  Area where content of the page is displayed.
+ */
+.content {
+  margin: auto;
+  width: $content-width;
+  max-width: $content-width-max;
+}
+
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.column {
+  float: left;
+  margin: auto;
+}
+
+.left {
+  width: 70%;
+
+  .spacing {
+    padding-right: $column-spacing;
+  }
+
+}
+
+.right {
+  width: 30%;
+
+  .spacing {
+    padding-left: $column-spacing;
+  }
+
+}
+
+.gone {
+  display: none !important;
+}
+
+.disabled {
+  text-decoration: line-through;
+}
+
+#donate {
+  text-align: center;
+  margin: auto;
+}
+
+@media (max-width: $medium-breakpoint) {
+
+  .right,
+  .left {
+    width: 100%;
+
+    .spacing {
+      padding: 0;
+    }
+  }
+
+  .left {
+    margin-bottom: 1rem;
+  }
+  .right {
+    margin-bottom: 0;
+  }
+}
+
+
+.display-area {
+  margin: auto;
+
+  @media (max-width: $medium-breakpoint) {
+    padding: $column-spacing;
+  }
+}
+
+pre {
+  overflow: auto;
+}
+
+.sidebar-margin {
+  margin-bottom: $column-spacing * 3;
+}
+
+.sidebar-title {
+  margin-bottom: 1rem;
+}
+
+code,
+.highlighter-rouge {
+  background-color: $color-page;
+}
+
+.highlight,
+{
+  padding: 0.8rem;
+  display: block;
+  overflow-x: hidden !important;
+  background-color: $color-code-highlight;
+}
+
+blockquote {
+  margin: 2rem;
+  padding: 0 0.5em;
+  font-style: italic;
+  border-left: 5px solid #8ab3b5;
+}
+
+
+.equal-box {
+  display: flex;
+  justify-content: center;
+}
+
+
+@media (max-width: $medium-breakpoint) {
+
+  .content {
+    width: $content-width-medium;
+  }
+
+  .sidebar-margin {
+    margin-bottom: $column-spacing
+  }
+
+}
+
+@media (min-width: $large-breakpoint) {
+
+  .content {
+    width: $content-width-large;
+  }
+
+}

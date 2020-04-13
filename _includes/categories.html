@@ -1,0 +1,17 @@
+<div class="display-area sidebar-margin">
+
+    <h3 class="sidebar-title">Categories</h3>
+
+
+    <div class="side-category">
+        {% for category in site.categories %}
+
+        {% capture title %}{{ category | first | capitalize }}{% endcapture %}
+
+        <a href="{{ site.url }}/categories/#{{title}}">{{ title }}</a>
+
+        {% endfor %}
+    </div>
+
+
+</div>

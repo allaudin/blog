@@ -1,0 +1,8 @@
+_site/
+.jekyll-cache/
+Gemfile.lock
+.sass-cache/
+.idea/*
+!.idea/dictionaries
+!.idea/inspectionProfiles
+!.idea/runConfigurations
