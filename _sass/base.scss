@@ -80,7 +80,7 @@ a {
   padding: 0.5rem;
   cursor: pointer;
   color: $color-blue;
-  background-color: #fff381;
+  background-color: $color-border;
 
   a,
   a:hover,
@@ -91,7 +91,6 @@ a {
   @media (max-width: $small-breakpoint) {
     bottom: 5px;
     right: 15px;
-    background-color: $color-border;
   }
 
 }
