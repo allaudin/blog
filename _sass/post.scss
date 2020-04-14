@@ -16,7 +16,14 @@
   h2,
   h3,
   h4 {
-    margin: 1.5rem 0;
+    display: inline-block;
+    margin: 0.5rem 0;
+    border-bottom: 1px dashed $color-subtitle;
+    &:after ,
+    &:before {
+      content: "";
+      display: block;
+    }
   }
 
   a,
@@ -37,9 +44,13 @@
     }
   }
 
-  p {
+  p , figure{
     margin: 1.5rem 0;
     font-size: 1.1rem;
+  }
+
+  figure {
+    font-size: 1rem;
   }
 
   .date {
