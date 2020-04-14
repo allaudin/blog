@@ -1,9 +1,6 @@
 default:
 	bundle exec jekyll serve --livereload
 
-multix:
-	git push multix master
-
 rebase:
 	@{ \
 	set -e; \
@@ -16,4 +13,3 @@ rebase:
 	git checkout -; fi \
 	}
 
-upload:	rebase multix
