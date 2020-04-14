@@ -59,7 +59,7 @@ function generateTocInId(id) {
 
 function createTocTitle() {
     const title = document.createElement("div");
-    title.innerHTML = "Table of content";
+    title.innerHTML = "Contents";
     title.classList.add("title");
     return title;
 }
