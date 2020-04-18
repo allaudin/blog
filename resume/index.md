@@ -15,6 +15,8 @@ last modified: {{ page.modified | downcase }}
 
 <!-- ![Photo]({{ site.url }}/{{ site.dp }}){: .selfie} -->
 
+Oh God! Give me courage and time to fix this bloody content section :( 
+{: .pray }
 
 ## Contact Info
 
