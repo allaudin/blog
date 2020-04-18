@@ -23,13 +23,20 @@
   }
 }
 
+@mixin nested_a_fix() {
+  a {
+    a {
+      display: inline;
+    }
+  }
+}
+
+#small-toc {
+  @include nested_a_fix
+}
+
 #resume-right {
-   #toc,
-   #small-toc{
-      a {
-        a {
-          display: inline;
-        }
-      }
-   }
+  #toc {
+    @include nested_a_fix
+  }
 }
