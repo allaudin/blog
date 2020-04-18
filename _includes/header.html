@@ -29,6 +29,7 @@
 
 <div class="container">
 
+    {% if page.url != "/resume/" %}
     <header>
 
         <div class="content">
@@ -39,11 +40,12 @@
                 <a class="fa fa-bars menu-icon" onclick="showHideMenu()"></a>
             </div>
 
+              {% include nav.html %}
 
-            {% include nav.html %}
         </div>
 
     </header>
+    {% endif %}
 
     <section>
 

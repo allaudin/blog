@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: resume
 nav: false
 title: Muhammad Allaudin
-modified: 09-April-2018 (20:00)
+modified: 18-April-2020 (19:47)
 ---
 
 <p id="subtitle">
@@ -18,12 +18,12 @@ last modified: {{ page.modified | downcase }}
 
 ## Contact Info
 
-* anullbyte@gmail.com
-* [Tech Blog](https://allaudin.github.io/){:.blue}
+* mallaudinqazi@gmail.com
+* [Tech Blog](https://mallaudin.com){:.blue}
 * [Stackoverflow profile](http://stackoverflow.com/users/2622118/mallaudin){:.blue}
 * [LinkedIn profile](https://pk.linkedin.com/in/allaudinology){:.blue}
-* Contact: <span id="contact">+92 333 8291874</span>
-* Islamabad, Pakistan.
+* Contact: <span id="contact">+49 151 24832360</span>
+* Munich, Germany.
 
 ## What can I do for you?
 
@@ -91,20 +91,22 @@ All these libraries greatly help developers to focus on something more important
 * RxJava
 * Dagger 2
 * Bash
+* Android Architecture Components
 * Operating Systems [Linux]
 * JUnit
 * Android Studio
+* Espresso
 
 ## Technologies I know a bit
 
 > Although I know less about these technologies, but with a task at hand, I can dive deep into the technology and can come up with great solutions.
 
 
-* Espresso
+
 * C/C++
 * JavaScript
-* Angular
-* PHP
+* ReactJs
+* PHP/Laravel
 * Wordpress
 * Node
 * Design Patterns
