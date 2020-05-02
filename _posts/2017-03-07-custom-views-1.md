@@ -144,7 +144,4 @@ View(Context context, AttributeSet attrs)
 {% endhighlight %}
 
 
-> One last thing, I took me a while to understand what each constructor is for, if this is the case with you, don't worry! I will go through them 
-> again while writing an example view. For now, keep this theory in mind and move forward.
-
 Read part 2 [here]({{site.url}}{{page.link2}}){:.blue}.
