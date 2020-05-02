@@ -1,9 +1,18 @@
 title: "Allaudin's Blog"
+tagline:  'All about Android'
 baseurl: ""
+description: 'My personal blog where I share my opinions and take notes of what I have learnt.'
+
+
+author:
+  name: M. Allaudin
+  url:  https://twitter.com/mallaudin
+  email:  mallaudinqazi@gmail.com
 
 permalink:      /:title/
 markdown:       kramdown
 highlighter:    rouge
+paginate: 20
 
 kramdown:
   auto_ids: true
@@ -23,5 +32,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
+
+google_analytics_id: UA-71498610-3
 
 theme: minima

@@ -3,13 +3,14 @@ title: Tags
 layout: default
 ---
 
- <h1 class="center tags">All {{ page.title }}</h1>
  
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 
 {% assign tag_words = site_tags | split:',' | sort %}
 
 <div class="tags">
+
+<h3>All Tags</h3>
 
 <ul class="tag-list">
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
