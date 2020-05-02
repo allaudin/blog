@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+
+<body>
+
+<h1>{{page.title}}</h1>
+<div class="container content" id="anchor">
+    <div id="toc-container">
+        <div id="toc">
+        </div>
+    </div>
+    {{ content }}
+</div>
+
+
+<p id="top" onclick="goToTop()">top <a class="fa fa-long-arrow-up" title="go to top"></a></p>
+
+<script src='{{ site.baseurl }}/assets/js/app.js'></script>
+</body>
+</html>

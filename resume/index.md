@@ -67,8 +67,8 @@ Whenever I thought something is going wrong, I took a step back and tried to sol
 
 #### NPE ([The Billion Dollar Mistake](https://en.wikipedia.org/wiki/Tony_Hoare#Apologies_and_retractions))
 
-> NPE is a nightmare for Java Developers and Evamp has suffered a lot from it. I have written an annotation process to
-> prevent app from crashing because of `NULL POINTER EXCEPTIONS`. **According to Fabric, our last project is 100% crash free**.
+> NPE is a nightmare for Java Developers and Evamp has suffered a lot from it. I have written an annotation processor to
+> prevent app from crashing because of `NULL POINTER EXCEPTIONS`. **According to Fabric, we had around 10% decrease in crashes after integrating this library**.
 > See [this](https://allaudin.github.io/yabk/){:.blue} link for reference.
 
 #### Parsing view IDs with ease
