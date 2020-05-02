@@ -8,11 +8,10 @@ comments: true
 date: 2017-03-14
 ---
 
-I have observed that new projects do not offer much to learn than old aged projects. Older projects, having footprints of many developers also carry
-mistakes by those developers. 
+I have observed that new projects do not offer much to learn than old aged projects. Older projects, having footprints of many developers also carry mistakes by those developers. 
 
 In such a situation, I don't really need to make many mistakes to learn. I already have mistakes by other developers, I just
-need to observe and be careful about these mistakes next time.
+need to observe and be careful about making these mistakes next time.
 
 Working on an antique (not really antique, it is just 6 months old) project, I have found that
 
