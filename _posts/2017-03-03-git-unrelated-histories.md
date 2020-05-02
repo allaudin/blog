@@ -9,7 +9,7 @@ date: 2017-03-03
 ---
 
 
-A long time ago, my senior came to me and said I have this strange error while pulling my code from server
+A long time ago, my teammate came to me and said I have this strange error while pulling my code from server
 
 {% highlight text %}
 fatal: refusing to merge unrelated histories
