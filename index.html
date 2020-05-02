@@ -13,8 +13,10 @@ title: Home
       </a>
     </h1>
 
+    {% capture category %}{{post.category | capitalize}}{% endcapture %}
+
     <span class="post-date">{{ post.date | date_to_string }} &nbsp; 
-      <a href="{{ '/categories/' | absolute_url}}#{{ post.category | capitalize }}"> {{ post.category | capitalize }}</a> </span>
+      <a href="{{ '/categories/' | absolute_url}}#{{ category }}"> {{ category }}</a> </span>
 
 
 

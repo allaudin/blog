@@ -4,14 +4,21 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
+  {% capture category %}{{page.category | capitalize }}{% endcapture %}
+  <span class="post-date">{{ page.date | date_to_string }} &nbsp;
+    <a href="{{ '/categories/' | absolute_url }}#{{category}}">{{category}}</a>&nbsp;
 
-<div id="toc-container">
+    {% for tag in page.tags %}
+    <a href="{{ '/tags/' | absolute_url }}#{{tag}}">#{{tag}}</a>&nbsp;
+    {% endfor %}
+  </span>
+
+
+
+  <div id="toc-container">
     <div id="toc">
-
     </div>
-    
-</div>
+  </div>
 
   {{ content }}
 </div>
@@ -21,14 +28,14 @@ layout: default
   <h2>Related posts</h2>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
+    <li>
+      <h3>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          {{ post.title }}
+          <small>{{ post.date | date_to_string }}</small>
+        </a>
+      </h3>
+    </li>
     {% endfor %}
   </ul>
 </div>
