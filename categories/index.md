@@ -3,10 +3,10 @@ layout: default
 title: Categories
 ---
 
-  <div class="categories post-list">
-                <h1 class="center">All {{ page.title }}</h1>
-                
-                  
+
+  <div class="categories post-list">     
+
+<h3>All Categories</h3>
                    
                 {% for category in site.categories %}
 

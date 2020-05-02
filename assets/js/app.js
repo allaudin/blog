@@ -7,37 +7,13 @@ window.addEventListener('DOMContentLoaded', () => {
     const toc = document.getElementById("toc");
 
     if (toc != null) {
-        generateToc();
+        generateTocInId("toc");
     }
 
 });
 
-function generateToc() {
-    generateTocInId("toc");
-    generateTocInId("small-toc");
-}
 
-function showHideMenu() {
-    const menu = document.getElementById("menu");
-    const menuIcon = document.getElementsByClassName("menu-icon").item(0);
-    const menuOpen = menuIcon.classList.contains("fa-times");
-    let display = "block";
 
-    if (menuOpen) {
-        display = "none";
-    }
-
-    menu.style.display = display;
-
-    if (menuOpen) {
-        menuIcon.classList.remove("fa-times");
-        menuIcon.classList.add("fa-bars");
-    } else {
-        menuIcon.classList.remove("fa-bars");
-        menuIcon.classList.add("fa-times");
-    }
-
-}
 
 function generateTocInId(id) {
     const firstLevelCounter = {count: 1};

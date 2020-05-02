@@ -1,6 +1,9 @@
 default:
 	bundle exec jekyll serve --livereload
 
+drafts:
+	bundle exec jekyll serve --livereload --watch --drafts
+
 rebase:
 	@{ \
 	set -e; \
