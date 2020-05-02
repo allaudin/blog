@@ -13,8 +13,6 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 
-
-
 function generateTocInId(id) {
     const firstLevelCounter = {count: 1};
     const toc = document.getElementById(id);
@@ -30,6 +28,9 @@ function generateTocInId(id) {
 
     for (let heading of headings) {
         toc.appendChild(createTocEntryFromHeading(heading, firstLevelCounter));
+        const anchor = createAnchor(heading.id, heading.innerText);
+        heading.innerText = "";
+        heading.appendChild(anchor)
     }
 }
 
@@ -38,6 +39,13 @@ function createTocTitle() {
     title.innerHTML = "Contents";
     title.classList.add("title");
     return title;
+}
+
+function createAnchor(heading, title) {
+    const anchor = document.createElement("a");
+    anchor.setAttribute("href", "#" + heading);
+    anchor.innerText = title;
+    return anchor;
 }
 
 function createTocEntryFromHeading(heading, counter) {
