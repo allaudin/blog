@@ -5,18 +5,18 @@
 
 <body>
 
-<h1>{{page.title}}</h1>
-<div class="container content" id="anchor">
-    <div id="toc-container">
-        <div id="toc">
+    <div class="container content" id="resume">
+
+        <div class="picture-wrapper hide">
+            <img src="/assets/img/dp.jpg" alt="Profile Picture" >
         </div>
+
+     
+
+        <h1 class="title">{{page.title}}</h1>
+        {{ content }}
     </div>
-    {{ content }}
-</div>
 
-
-<p id="top" onclick="goToTop()">top <a class="fa fa-long-arrow-up" title="go to top"></a></p>
-
-<script src='{{ site.baseurl }}/assets/js/app.js'></script>
 </body>
+
 </html>

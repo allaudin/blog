@@ -1,0 +1,53 @@
+#resume {
+
+    h1.title {
+        display: block;
+        text-align: center;
+    }
+
+    .subtitle {
+        text-align: center;
+    }
+
+    .skill-container {
+
+        display: block;
+
+        .skill {
+            display: inline-block;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin: 0.3em 0.2em;
+            padding: 0.3em 0.5em;
+            border: 1px solid black;
+        }
+
+    }
+
+    blockquote {
+        margin: 5px 20px;
+    }
+
+    .picture-wrapper {
+        margin-top: 26px;
+        margin-bottom: 18px;
+        display: block;
+        text-align: center;
+        padding: 0;
+
+        img {
+            display: inline-block;
+            width: 90px;
+            height: 90px;
+            margin: 0;
+            padding: 0;
+            border-radius: 50%;
+        }
+    }
+
+    .hide {
+        display: none !important;
+    }
+
+
+}
