@@ -3,7 +3,7 @@ layout: post
 title: Getting familiar with Loaders - Part 2
 modified: 31-Jan-2017 (00:07)
 category: android
-comments: false
+comments: true
 date: 2017-01-30
 tags: [android, loaders]
 ---

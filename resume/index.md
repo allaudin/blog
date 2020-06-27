@@ -3,15 +3,14 @@ layout: resume
 title: Muhammad Allaudin
 ---
 
-<p class="subtitle">
-	<span>(Software Developer)</span>
-</p>
+(Software Developer)
+{: .subtitle }
 
 
 ## Contact Info
 
 * mallaudinqazi@gmail.com
-* [Tech Blog](https://mallaudin.com)
+* [Tech Blog](/)
 * [Stackoverflow profile](http://stackoverflow.com/users/2622118/mallaudin)
 * [LinkedIn profile](https://pk.linkedin.com/in/allaudinology)
 * Contact: <span id="contact">+49 152 513 81 073</span>
@@ -28,14 +27,15 @@ title: Muhammad Allaudin
 
 ## Where I excel?
 
-* Always looking for best possible solutions for give problems
+* Always looking for best possible solutions for given problems
 * Constantly improving 
 * Think out of the box, do not confined myself to one thing
 * Exploring and reading about technology 
 * Perfectionist. Clean code lover
-* Beleive in `Code is incomplete without testing`
+* SOLID understanding of OOP 
+* Believe in `Code is incomplete without testing`
 
-see my favorite quotes [here](https://www.mallaudin.com/quotes/)
+see my favorite quotes [here]({{ site.baseurl }}/quotes/)
 
 ## Current Tech Stack
 
@@ -55,16 +55,17 @@ see my favorite quotes [here](https://www.mallaudin.com/quotes/)
 	<span class="skill">Green Coffee/Gherkin</span>
 	<span class="skill">Bash</span>
 	<span class="skill">Makefiles</span>
+	<span class="skill">Hilt</span>
 </div>
 
-## Previously used languages
+## Past Experience
 
 <div class="skill-container">
 	<span class="skill">C/C++</span>
 	<span class="skill">Javascript</span>
 	<span class="skill">PHP/Laravel</span>
 	<span class="skill">ReactJs</span>
-	<span class="skill">Android OS (Written some patches)</span>
+	<span class="skill">Android OS (Beginner)</span>
 </div>
 
 ## Job History
@@ -75,7 +76,7 @@ see my favorite quotes [here](https://www.mallaudin.com/quotes/)
 
 ### Nowtel Group (April 2018 - Sep 2019)
 
-* Managed and mantianted a calling application 
+* Managed and maintained a calling application 
 * Got familiar with XMPP and SIP protocols
 * Proposed and implemented new ideas related to product quality
 
@@ -83,7 +84,7 @@ see my favorite quotes [here](https://www.mallaudin.com/quotes/)
 
 * Worked as Mobile Software Engineer
 * Introduced new tech stack / ideas
-* Made existing apps more stable and effiecent
+* Made existing apps more stable and efficient
 * Lead a team of 3 android developers
 * Mentored juniors developers
 
@@ -95,35 +96,32 @@ see my favorite quotes [here](https://www.mallaudin.com/quotes/)
 
 * Lead the core project of Automation of Provincial Disaster Management Authority (PDMA) System. Successfully accomplished two huge government projects under this company's belt.
 
-## Achievements in development role
+## Past Achievements in development role
 
-Whenever I thought something is being done in wrong way or needs improvement, I took a step back and tried to solve it. I tried to tackle some problesm by creating my own libraries for specific projects.
+Whenever I thought something is being done in wrong way or needs improvement, I took a step back and tried to solve it. I tried to tackle some problems by creating my own libraries for specific projects.
 
 ### 1. Coconut Input Validation library
 
 Validating input fields require a lot of effort and boilerplate code on developer side. I have tried to solved
 this problem by creating a library which does all this work in a very effective manner. It amazingly reduces
 your validation logic to only a *single line* and makes you productive when dealing with input validations.
-See [this](https://github.com/allaudin/coconut-input-validator) link for reference.
+See [this]({{ site.github }}/coconut-input-validator) link for reference.
 
 ### 2. Networking library
 
 For networking,  I have fully compiled my own library keeping Evamp’s need in mind. As almost every project in Evamp
-communicates to network, **this library reduces around 20% of developer's burden and allow them to be more productive**.Visit
-[this](https://github.com/allaudin/ease-volley-wrapper) link for details.
+communicates to network, **this library reduces around 20% of developer's burden and allows them to be more productive**.
+`source code is not available:(`
 
 ### 3. NPE ([The Billion Dollar Mistake](https://en.wikipedia.org/wiki/Tony_Hoare#Apologies_and_retractions))
 
 NPE is a nightmare for Java Developers and Evamp has suffered a lot from it. I have written an annotation processor to
 prevent app from crashing because of `NULL POINTER EXCEPTIONS`. **According to Fabric, we had around 10% decrease in crashes after integrating this library**.
-See [this](https://www.mallaudin/yabk/) link for reference.
+See [this]({{ site.baseurl }}/yabk/) link for reference.
 
 ### 4. Parsing view IDs with ease
 
-One of the curmbersome tasks in Android is getting view reference in java code. You have to write biolerplate code
-again and again for getting the new IDs from XML. I have solved this issue by creating an annotation processor which
-does view-id binding and update them automatically. It greatly helps in writing code with same structure and use it
-without any extra effor. See [this](https://www.mallaudin/oxygeroid/) link for reference.
+One of the cumbersome tasks in Android is getting view reference in java code. You have to write boilerplate code again and again for getting the new IDs from XML. I solved this issue by creating an *annotation processor* which generated view binding code.See [this]({{ site.baseurl }}/oxygeroid/) link for reference.
 
 > All these libraries greatly help developers to focus on something more important (business logic) and save precious time.
 
@@ -132,21 +130,21 @@ without any extra effor. See [this](https://www.mallaudin/oxygeroid/) link for r
 
 ### 1. Coconut Input Validator (2018)
 
-Coconut Input Validator moves your data validation logic from Java code to XML. By this, you are able to define validation regex and error messages directly on view definition. [link](https://github.com/allaudin/coconut-input-validator)
+Coconut Input Validator moves your data validation logic from Java code to XML. By this, you are able to define validation regex and error messages directly on view definition. [link]({{ site.github }}/coconut-input-validator-android)
 
 ### 2. Ease Volley Wrapper (2017)
 
-Ease is a wrapper around Volley for handling network responses more effectively. It offers auto parsing of response to a specific type with clean and intuitive API for creating requests and handling responses. [link](https://github.com/allaudin/ease-volley-wrapper)
+Ease is a wrapper around Volley for handling network responses more effectively. It offers auto parsing of response to a specific type with clean and intuitive API for creating requests and handling responses. 
 
 ### 3. Oxygeroid (2016)
 
-Oxygeroid is a simple yet very effective annotation processor written specifically for Android. It's a boilerplate killer and core idea behind this processor is to get rid of processing view Ids manually. [link](https://www.mallaudin.com/oxygeroid/)
+Oxygeroid is a simple yet very effective annotation processor written specifically for Android. It's a boilerplate killer and core idea behind this processor is to get rid of processing view Ids manually. [link]({{ site.baseurl }}/oxygeroid/)
 
 
 ### 4. YABK (Yet Another Boilerplate Killer)
 
 YABK is an annotation process which generates getter/setters and parcel implementation of a POJO at compile time.
-[link](https://www.mallaudin.com/yabk/)
+[link]({{ site.baseurl }}/yabk/)
 
 ## Real world projects
 

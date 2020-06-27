@@ -1,8 +1,27 @@
+$color-blue: #268bd2;
+
 .post-date {
   a {
     font-size: 0.8em;
     text-transform: uppercase;
   }
+}
+
+.last_modified {
+  display: block;
+  text-align: center;
+}
+
+.page-title {
+  text-align: center;
+  display: block;
+}
+
+.author {
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  color: $color-blue;
 }
 
 .tags,
@@ -22,7 +41,7 @@
   }
 }
 
-$color-blue: #268bd2;
+
 
 #top {
 
@@ -109,6 +128,8 @@ $color-blue: #268bd2;
 
 
 .post {
+
+  font-size: 1.2rem;
 
   h2,
   h3,

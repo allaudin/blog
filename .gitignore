@@ -6,3 +6,4 @@ Gemfile.lock
 !.idea/dictionaries
 !.idea/inspectionProfiles
 !.idea/runConfigurations
+.vscode

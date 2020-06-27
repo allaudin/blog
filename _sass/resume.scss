@@ -1,8 +1,16 @@
 #resume {
 
+    font-size: 1.1rem;
+
     h1.title {
         display: block;
         text-align: center;
+    }
+
+    h2 {
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #dcdcdc;
     }
 
     .subtitle {
@@ -12,6 +20,7 @@
     .skill-container {
 
         display: block;
+        margin: 20px 0;
 
         .skill {
             display: inline-block;

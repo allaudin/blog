@@ -1,16 +1,11 @@
 ---
-layout: post
+layout: doc
 title: YABK
 comments: true
 nav: false
 modified: 2-Jul-2017 (23:31)
+logo: "/assets/img/yabk_logo.png"
 ---
-
-<p>
-    <img src="../assets/img/yabk_logo.png" id="oxp-logo">
-</p>
-
-
 
 last modified: {{ page.modified | downcase }} 
 {: .last_modified }

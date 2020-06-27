@@ -1,15 +1,11 @@
 ---
-layout: post
+layout: doc
 title: Oxygeroid
 comments: true
 nav: false
 modified: 02-Jul-2017 (23:40)
+logo: "/assets/img/oxp-logo.png"
 ---
-
-<p>
-    <img src="../assets/img/oxp-logo.png" id="oxp-logo">
-</p>
-
 
 
 last modified: {{ page.modified | downcase }}

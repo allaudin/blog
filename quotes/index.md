@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: favorites
 title: Favorite Quotes
 modified: 30-Sep-2018 (14:41)
 nav: true
