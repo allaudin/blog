@@ -3,7 +3,7 @@ layout: resume
 title: Muhammad Allaudin
 ---
 
-(Software Developer)
+(Senior Software Developer)
 {: .subtitle }
 
 
@@ -41,6 +41,8 @@ see my favorite quotes [here]({{ site.baseurl }}/quotes/)
 
 <div class="skill-container">
 	<span class="skill">Android</span>
+	<span class="skill">Android SDK</span>
+	<span class="skill">Android Platform Development</span>
 	<span class="skill">Java</span>
 	<span class="skill">Kotlin</span>
 	<span class="skill">Git</span>
@@ -56,6 +58,9 @@ see my favorite quotes [here]({{ site.baseurl }}/quotes/)
 	<span class="skill">Bash</span>
 	<span class="skill">Makefiles</span>
 	<span class="skill">Hilt</span>
+	<span class="skill">Mockito</span>
+	<span class="skill">Roboelectric</span>
+	<span class="skill">Appium</span>
 </div>
 
 ## Past Experience
@@ -72,7 +77,14 @@ see my favorite quotes [here]({{ site.baseurl }}/quotes/)
 
 ### Paradoxcat Gmbh (Sep 2019 - Present)
 
-* Working on Head Unit Android Apps for [BMW](https://www.bmw.de/de/home.html)
+* Worked on Android based infotainment platform for BMW cars specifically for wireless
+  connectivity and telephony part.
+* Apart from application development, implemented a Bluetooth library on top of
+  Android’s Bluetooth stack to provide support for application layer.
+* Implemented a mocked layer on top Android’s Bluetooth stack to support feature
+  development and automation testing using Android’s emulator.
+* Implemented end-to-end tests and CI automation for connectivity apps
+* Developed/maintained android platform service to expose Android Bluetooth APIs to application layer
 
 ### Nowtel Group (April 2018 - Sep 2019)
 
