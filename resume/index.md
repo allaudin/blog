@@ -3,7 +3,7 @@ layout: resume
 title: Muhammad Allaudin
 ---
 
-(Senior Software Developer)
+Principal Software Engineer (7 years)
 {: .subtitle }
 
 
@@ -19,23 +19,30 @@ title: Muhammad Allaudin
 
 ## What I know?
 
-* Make it as simple as possible, but not simpler
 * Right tool for the job
 * Do one thing but do it well
-* Write expressive code and quality software
-* Working with legacy code, refactor and optimize code
+* Make it simple but not simpler
+* Writing code understandable by human beings
+* Working with existing code base, refactor and optimize code
+* Finding solutions to complext problems
+
 
 ## Where I excel?
 
-* Always looking for best possible solutions for given problems
-* Constantly improving 
-* Think out of the box, do not confined myself to one thing
-* Exploring and reading about technology 
-* Perfectionist. Clean code lover
-* SOLID understanding of OOP 
-* Believe in `Code is incomplete without testing`
+* Quick learner
+* Result oriented, making things happen
+* Have great attention to details
+* Quality first appraoct to write softwares
+* Knowing that I know nothing and there is room for improvement
+* Taking responsibility of my work
+* Accepting but not repeating mistakes
+* Thinking out of the box and going beyond limits
+* Striving for prefection and knowing there is nothing perfect
+* Leader and team player
+* No fear of doing things which I haven't done before
+* SOLID understanding of software principals, algorithms, data structures etc
+* Writing testable and maintainable code
 
-see my favorite quotes [here]({{ site.baseurl }}/quotes/)
 
 ## Current Tech Stack
 
@@ -60,17 +67,24 @@ see my favorite quotes [here]({{ site.baseurl }}/quotes/)
 	<span class="skill">Hilt</span>
 	<span class="skill">Mockito</span>
 	<span class="skill">Roboelectric</span>
-	<span class="skill">Appium</span>
+	<span class="skill">CI/CD</span>
+	<span class="skill">Bash</span>
 </div>
 
-## Past Experience
+
+
+## Familiar with, but have no professional experience
 
 <div class="skill-container">
+	<span class="skill">Jetpack Compose</span>
 	<span class="skill">C/C++</span>
+	<span class="skill">Hilt</span>
 	<span class="skill">Javascript</span>
 	<span class="skill">PHP/Laravel</span>
 	<span class="skill">ReactJs</span>
-	<span class="skill">Android OS (Beginner)</span>
+	<span class="skill">Android OS</span>
+	<span class="skill">Appium</span>
+	<span class="skill">Docker</span>
 </div>
 
 ## Job History
@@ -79,6 +93,8 @@ see my favorite quotes [here]({{ site.baseurl }}/quotes/)
 
 * Worked on Android based infotainment platform for BMW cars specifically for wireless
   connectivity and telephony part.
+#### so
+
 * Apart from application development, implemented a Bluetooth library on top of
   Android’s Bluetooth stack to provide support for application layer.
 * Implemented a mocked layer on top Android’s Bluetooth stack to support feature
