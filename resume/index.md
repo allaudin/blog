@@ -91,16 +91,13 @@ Principal Software Engineer (7 years)
 
 ### Paradoxcat Gmbh (Sep 2019 - Present)
 
-* Worked on Android based infotainment platform for BMW cars specifically for wireless
-  connectivity and telephony part.
-#### so
-
-* Apart from application development, implemented a Bluetooth library on top of
-  Android’s Bluetooth stack to provide support for application layer.
-* Implemented a mocked layer on top Android’s Bluetooth stack to support feature
-  development and automation testing using Android’s emulator.
+* Worked on Android based infotainment platform for BMW cars (connectivity module)
+* Implemented a Bluetooth library on top of Android’s Bluetooth stack to provide support for application layer.
+* Implemented a mocked layer on top Android’s Bluetooth stack to support feature development and automation testing using Android’s emulator.
 * Implemented end-to-end tests and CI automation for connectivity apps
 * Developed/maintained android platform service to expose Android Bluetooth APIs to application layer
+* Lead/mentored a group of 5 developers
+* Cofounded Modern android development club at Paradoxcat
 
 ### Nowtel Group (April 2018 - Sep 2019)
 
@@ -198,6 +195,10 @@ Lead the core project of Automation of Provincial Disaster Management Authority 
 ## Education
 
 B.Sc Computer System Engineering, UET Peshawar (2015)
+
+## Trainings
+
+[Embedded Android + Automotive](https://2net.co.uk/training/embedded-android-automotive)
 
 ## Interests
 
