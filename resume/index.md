@@ -73,12 +73,15 @@ see my favorite quotes [here]({{ site.baseurl }}/quotes/)
 	<span class="skill">Android OS (Beginner)</span>
 </div>
 
+## Trainings
+
+[Embedded Android + Automotive](https://2net.co.uk/training/embedded-android-automotive)
+
 ## Job History
 
 ### Paradoxcat Gmbh (Sep 2019 - Present)
 
-* Worked on Android based infotainment platform for BMW cars specifically for wireless
-  connectivity and telephony part.
+* Worked on Android based infotainment platform for BMW cars (connectivity domain)
 * Apart from application development, implemented a Bluetooth library on top of
   Android’s Bluetooth stack to provide support for application layer.
 * Implemented a mocked layer on top Android’s Bluetooth stack to support feature
@@ -178,6 +181,7 @@ A telco app for a telecommunication company based in Iraq. [link](https://play.g
 ### 4. PDMA (KPK) Projects (2015)
 
 Lead the core project of Automation of Provincial Disaster Management Authority (PDMA) System.
+
 
 ## Education
 
