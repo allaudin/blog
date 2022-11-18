@@ -3,7 +3,7 @@ layout: resume
 title: Muhammad Allaudin
 ---
 
-(Senior Software Developer)
+(Principal Software Engineer - 7 Years Exp)
 {: .subtitle }
 
 
