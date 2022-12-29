@@ -35,43 +35,44 @@ title: Muhammad Allaudin
 * SOLID understanding of OOP 
 * Believe in `Code is incomplete without testing`
 
-see my favorite quotes [here]({{ site.baseurl }}/quotes/)
-
-## Current Tech Stack
+## Skills 
 
 <div class="skill-container">
 	<span class="skill">Android</span>
 	<span class="skill">Android SDK</span>
-	<span class="skill">Android Platform Development</span>
+	<span class="skill">Android Platform Services</span>
 	<span class="skill">Java</span>
 	<span class="skill">Kotlin</span>
 	<span class="skill">Git</span>
 	<span class="skill">Gradle</span>
-	<span class="skill">Retrofit/Volley</span>
+	<span class="skill">Retrofit</span>
 	<span class="skill">REST APIs</span>
 	<span class="skill">MVP/MVVM</span>
-	<span class="skill">RxJava</span>
+	<span class="skill">Coroutines/Flows</span>
 	<span class="skill">Dagger 2</span>
 	<span class="skill">JUnit</span>
 	<span class="skill">Espresso</span>
 	<span class="skill">Green Coffee/Gherkin</span>
 	<span class="skill">Bash</span>
 	<span class="skill">Makefiles</span>
-	<span class="skill">Hilt</span>
 	<span class="skill">Mockito</span>
+	<span class="skill">E2E testing</span>
 	<span class="skill">Roboelectric</span>
-	<span class="skill">Appium</span>
+	<span class="skill">Algorithms & data structures</span>
+	<span class="skill">Android App Architecture</span>
 </div>
 
-## Past Experience
+## Familiar With
 
 <div class="skill-container">
 	<span class="skill">C/C++</span>
 	<span class="skill">Javascript</span>
 	<span class="skill">PHP/Laravel</span>
 	<span class="skill">ReactJs</span>
-	<span class="skill">Android OS (Beginner)</span>
+	<span class="skill">Jetpack Compose</span>
+	<span class="skill">Hilt</span>
 </div>
+
 
 ## Trainings
 
@@ -88,6 +89,8 @@ see my favorite quotes [here]({{ site.baseurl }}/quotes/)
   development and automation testing using Android’s emulator.
 * Implemented end-to-end tests and CI automation for connectivity apps
 * Developed/maintained android platform service to expose Android Bluetooth APIs to application layer
+* Mentored a group of 5 developers
+* Cofounded Modern android development club at Paradoxcat
 
 ### Nowtel Group (April 2018 - Sep 2019)
 
