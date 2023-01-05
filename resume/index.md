@@ -27,7 +27,7 @@ title: Muhammad Allaudin
 
 ## Where I excel?
 
-* Always looking for best possible solutions for given problems
+* Passion for solving complex problems
 * Constantly improving 
 * Think out of the box, do not confined myself to one thing
 * Exploring and reading about technology 
