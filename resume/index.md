@@ -11,10 +11,11 @@ title: Muhammad Allaudin
 
 * mallaudinqazi@gmail.com
 * [Tech Blog](/)
+* [Tech Blog 2](https://www.multixlab.com)
 * [Stackoverflow profile](http://stackoverflow.com/users/2622118/mallaudin)
 * [LinkedIn profile](https://pk.linkedin.com/in/allaudinology)
-* Contact: <span id="contact">+49 152 513 81 073</span>
-* Munich, Germany.
+* Contact: <span id="contact">+44 782 356 0797</span>
+* United Kingdom
 
 
 ## What I know?
@@ -49,7 +50,7 @@ title: Muhammad Allaudin
 	<span class="skill">REST APIs</span>
 	<span class="skill">MVP/MVVM</span>
 	<span class="skill">Coroutines/Flows</span>
-	<span class="skill">Dagger 2</span>
+	<span class="skill">Dagger 2/ Hilt</span>
 	<span class="skill">JUnit</span>
 	<span class="skill">Espresso</span>
 	<span class="skill">Green Coffee/Gherkin</span>
@@ -58,6 +59,7 @@ title: Muhammad Allaudin
 	<span class="skill">Mockito</span>
 	<span class="skill">E2E testing</span>
 	<span class="skill">Roboelectric</span>
+	<span class="skill">Jetpack Compose</span>
 	<span class="skill">Algorithms & data structures</span>
 	<span class="skill">Android App Architecture</span>
 </div>
@@ -69,8 +71,6 @@ title: Muhammad Allaudin
 	<span class="skill">Javascript</span>
 	<span class="skill">PHP/Laravel</span>
 	<span class="skill">ReactJs</span>
-	<span class="skill">Jetpack Compose</span>
-	<span class="skill">Hilt</span>
 </div>
 
 
@@ -80,7 +80,11 @@ title: Muhammad Allaudin
 
 ## Job History
 
-### Paradoxcat Gmbh (Sep 2019 - Present)
+### JLR - JaguarLandrover (Jul 2023 - Present)
+
+* In my current role as a Senior HMI Engineer, I lead a team of 12 developers, oversee software architecture establishment, conduct code reviews, troubleshoot and remove blockers, spearhead software development initiatives, implement CI (Continuous Integration), and devise testing strategies.
+
+### Paradoxcat Gmbh (Sep 2019 - Jul 2023)
 
 * Worked on Android based infotainment platform for BMW cars (connectivity domain)
 * Apart from application development, implemented a Bluetooth library on top of
