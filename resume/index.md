@@ -10,8 +10,7 @@ title: Muhammad Allaudin
 ## Contact Info
 
 * mallaudinqazi@gmail.com
-* [Tech Blog](/)
-* [Tech Blog 2](https://www.multixlab.com)
+* Tech Blog [multixlab](https://multixlab.com)
 * [Stackoverflow profile](http://stackoverflow.com/users/2622118/mallaudin)
 * [LinkedIn profile](https://pk.linkedin.com/in/allaudinology)
 * Contact: <span id="contact">+44 782 356 0797</span>
