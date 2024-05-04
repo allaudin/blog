@@ -3,14 +3,14 @@ layout: resume
 title: Muhammad Allaudin
 ---
 
-(Principal Software Engineer - 7 Years Exp)
+(Senior Android Engineer - 7 Years Exp)
 {: .subtitle }
 
 
 ## Contact Info
 
 * mallaudinqazi@gmail.com
-* Tech Blog [multixlab](https://multixlab.com)
+* [Blog](https://multixlab.com)
 * [Stackoverflow profile](http://stackoverflow.com/users/2622118/mallaudin)
 * [LinkedIn profile](https://pk.linkedin.com/in/allaudinology)
 * Contact: <span id="contact">+44 782 356 0797</span>
@@ -38,19 +38,20 @@ title: Muhammad Allaudin
 ## Skills 
 
 <div class="skill-container">
-	<span class="skill">Android</span>
 	<span class="skill">Android SDK</span>
 	<span class="skill">Android Platform Services</span>
 	<span class="skill">Java</span>
 	<span class="skill">Kotlin</span>
 	<span class="skill">Git</span>
+	<span class="skill">GitLab</span>
+	<span class="skill">CI/CD</span>
 	<span class="skill">Gradle</span>
 	<span class="skill">Retrofit</span>
 	<span class="skill">REST APIs</span>
 	<span class="skill">MVP/MVVM</span>
 	<span class="skill">Coroutines/Flows</span>
 	<span class="skill">Dagger 2/ Hilt</span>
-	<span class="skill">JUnit</span>
+	<span class="skill">Unit Testing</span>
 	<span class="skill">Espresso</span>
 	<span class="skill">Green Coffee/Gherkin</span>
 	<span class="skill">Bash</span>

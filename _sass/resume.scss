@@ -5,6 +5,7 @@
     h1.title {
         display: block;
         text-align: center;
+        margin-top: 0.5rem;
     }
 
     h2 {
@@ -31,6 +32,18 @@
             border: 1px solid black;
         }
 
+    }
+
+    .avatar {
+        width: 95px;
+        max-width: 100%;
+        overflow: hidden;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 100px;
+        margin: 0 auto;
+        display: block;
+        margin-top: 1rem;
     }
 
     blockquote {

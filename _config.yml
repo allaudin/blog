@@ -3,6 +3,8 @@ tagline:  'All about Android'
 baseurl: ""
 description: 'My personal blog where I share my opinions and take notes of what I have learnt.'
 
+resume_avatar: "true"
+
 github: "https://github.com/allaudin"
 author:
   name: M. Allaudin
