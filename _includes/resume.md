@@ -1,8 +1,3 @@
----
-layout: resume
-title: Muhammad Allaudin
----
-
 (Senior Android Engineer - 8 Years Exp)
 {: .subtitle }
 
@@ -10,7 +5,6 @@ title: Muhammad Allaudin
 ## Contact Info
 
 * mallaudinqazi@gmail.com
-* [Blog](https://multixlab.com)
 * [Stackoverflow profile](http://stackoverflow.com/users/2622118/mallaudin)
 * [LinkedIn profile](https://pk.linkedin.com/in/allaudinology)
 * Contact: <span id="contact">+44 782 356 0797</span>
@@ -19,7 +13,6 @@ title: Muhammad Allaudin
 
 ## What I know?
 
-* Make it as simple as possible, but not simpler
 * Right tool for the job
 * Do one thing but do it well
 * Write expressive code and quality software

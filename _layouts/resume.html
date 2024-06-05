@@ -12,8 +12,13 @@
         {% endif %}
 
         <h1 class="title">{{page.title}}</h1>
-        {{ content }}
+        {{ content | markdownify }}
     </div>
+
+    <p id="top" onclick="goToTop()">top <a class="fa fa-long-arrow-up" title="go to top"></a></p>
+
+    <script src='{{ site.baseurl }}/public/js/script.js'></script>
+    <script src='{{ site.baseurl }}/assets/js/app.js'></script>
 
 </body>
 
